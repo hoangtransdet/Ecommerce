@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Checking if login page is loading]]>
+    </line>
+    <line>
+      <![CDATA[Login with invalid credential test]]>
+    </line>
+    <line>
+      <![CDATA[Checking if login page is loading]]>
+    </line>
+    <line>
+      <![CDATA[Login with valid credential test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13758" started-at="2018-04-19T21:38:31Z" finished-at="2018-04-19T21:38:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13758" started-at="2018-04-19T21:38:31Z" finished-at="2018-04-19T21:38:44Z">
+      <class name="scripts.LogIn">
+        <test-method status="PASS" signature="loginWithInvalidCredential()[pri:0, instance:scripts.LogIn@482f8f11]" name="loginWithInvalidCredential" duration-ms="5714" started-at="2018-04-19T16:38:31Z" finished-at="2018-04-19T16:38:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking if login page is loading]]>
+            </line>
+            <line>
+              <![CDATA[Login with invalid credential test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredential -->
+        <test-method status="PASS" signature="loginWithValidCredential()[pri:0, instance:scripts.LogIn@482f8f11]" name="loginWithValidCredential" duration-ms="8025" started-at="2018-04-19T16:38:36Z" finished-at="2018-04-19T16:38:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking if login page is loading]]>
+            </line>
+            <line>
+              <![CDATA[Login with valid credential test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredential -->
+      </class> <!-- scripts.LogIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

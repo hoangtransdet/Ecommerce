@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite allow-return-values="false" configfailurepolicy="skip"
+       group-by-instances="false" junit="false" name="LocalGrid"
+       parallel="classes" preserve-order="true" skipfailedinvocationcounts="false"
+       thread-count="2">
+       <parameter name="retryParameter" value="0" />
+       <test allow-return-values="false" group-by-instances="false"
+              junit="false" name="NotPassedTests" preserve-order="true"
+              skipfailedinvocationcounts="false">
+			<classes>
+				<class name="scripts.LogIn" />
+			</classes>
+    	</test>
+</suite>
